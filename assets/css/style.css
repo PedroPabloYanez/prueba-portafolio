@@ -129,3 +129,30 @@ h4{
     font-size: 16px;
     word-spacing: 0.16px;
 }
+
+/*Sección Mi Experiencia*/
+
+.miexperiencia{
+    color: #373A3C;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+}
+
+.icons{
+    text-align: center;
+    margin: 20px;
+    color: #660066;
+}
+
+.name{
+
+    color: #000000;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.date{
+    font-size: 25px;
+    color: #000000;
+}
