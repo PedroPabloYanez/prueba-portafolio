@@ -9,6 +9,10 @@ body *{
     justify-content: flex-end;  
 }
 
+a{
+    font-size: 16px;
+}
+
 .m{
 
     font-weight: bolder;
@@ -44,8 +48,8 @@ body *{
     
     @media (min-width: 768px) {
         .mujer > img{
-            width: 1280px;
-            height: 737px;
+            width: 100vw !important;
+            height: 737px !important; 
         }
         .titulo1{
             font-size: 72px !important;
@@ -67,12 +71,12 @@ body *{
         .linea{
             color: #373A3C;
             width: 15% !important;
-            margin: 16px 400px !important;    
+            margin: 35px 470px !important;    
         }
         .workline{
             color: #ffffff;
             width: 15% !important;
-            margin: 16px 400px !important;
+            margin: 35px 470px !important;
             margin-bottom: 50px !important;
         }
         
