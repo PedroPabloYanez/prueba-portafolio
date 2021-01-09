@@ -156,3 +156,27 @@ h4{
     font-size: 25px;
     color: #000000;
 }
+
+/*Sección Mis Últimos Trabajos*/
+
+.bg-work{
+    background-color: #660066;
+}
+
+.lastwork{
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.workline{
+    color: #ffffff;
+    width: 35%;
+    margin: 16px 95px;
+    margin-bottom: 50px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
