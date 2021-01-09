@@ -41,7 +41,7 @@ a{
 /*Seccion Header*/
 
 .mujer > img{
-    width: 320px;
+    width: 100%;
     height: 507px;
     object-fit: cover;
     }
@@ -117,7 +117,7 @@ h4{
 .linea{
     color: #373A3C;
     width: 35%;
-    margin: 16px 95px;    
+    margin: 16px 115px;    
 }
 
 .parrafo1{
@@ -177,7 +177,7 @@ h4{
 .workline{
     color: #ffffff;
     width: 35%;
-    margin: 16px 95px;
+    margin: 16px 115px;
     margin-bottom: 50px;
 }
 
