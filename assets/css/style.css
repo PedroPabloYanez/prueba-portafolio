@@ -188,3 +188,15 @@ h4{
     font-size: 35px;
     color: #373A3C;
 }
+
+/*Sección Footer*/
+
+.bg-footer{
+    background-color: #660066;
+    color: #ffffff;
+}
+
+.magdalena{
+    font-weight: bolder;
+    font-size: 40px;
+}
