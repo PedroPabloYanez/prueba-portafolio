@@ -180,3 +180,11 @@ h4{
 .card{
     margin-bottom: 20px;
 }
+
+/*Sección Contacto*/
+
+.contact{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #373A3C;
+}
