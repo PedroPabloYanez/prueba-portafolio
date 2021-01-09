@@ -4,6 +4,7 @@ body *{
     border: 0;
 }
 
+/*Seccion Navbar*/
 .text-right{
     justify-content: flex-end;  
 }
@@ -25,4 +26,76 @@ body *{
     font-weight: bolder;
     display: block;
     margin: auto;       
+}
+
+.navbar-toggler{
+    border-color: #ffffff;
+    --background-color: #ffffff;
+
+}
+
+/*Seccion Header*/
+
+.mujer > img{
+    width: 320px;
+    height: 507px;
+    object-fit: cover;
+    }
+    
+    @media (min-width: 768px) {
+        .mujer > img{
+            width: 1280px;
+            height: 737px;
+        }
+        .titulo1{
+            font-size: 72px !important;
+        }
+        
+        .titulo2{
+            font-weight: bolder;
+            font-size: 72px !important;
+        }
+        .miexperiencia{
+            font-size: 52px !important;
+        }
+        .lastwork{
+            font-size: 52px !important;
+        }
+        .contact{
+            font-size: 52px !important;
+        }
+        .linea{
+            color: #373A3C;
+            width: 15% !important;
+            margin: 16px 400px !important;    
+        }
+        .workline{
+            color: #ffffff;
+            width: 15% !important;
+            margin: 16px 400px !important;
+            margin-bottom: 50px !important;
+        }
+        
+    }
+
+.titulos{  
+    position: absolute;
+    bottom: 6px; 
+    left: 50%;
+    transform: translatex(-50%);   
+}
+
+hr {
+    border-color: #ffffff;
+    opacity: 1;
+    padding: 1px;
+}
+
+.titulo1{
+    font-size: 40px;
+}
+
+.titulo2{
+    font-weight: bolder;
+    font-size: 40px;
 }
