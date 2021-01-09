@@ -99,3 +99,33 @@ hr {
     font-weight: bolder;
     font-size: 40px;
 }
+
+/*Sección Parrafos*/
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.linea{
+    color: #373A3C;
+    width: 35%;
+    margin: 16px 95px;    
+}
+
+.parrafo1{
+    line-height: 40px;
+    width: 460px;
+    font-size: 16px;
+    word-spacing: 0.16px;
+}
+
+.parrafo2{
+    line-height: 40px;
+    width: 460px;
+    font-size: 16px;
+    word-spacing: 0.16px;
+}
