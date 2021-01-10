@@ -14,7 +14,6 @@ a{
 }
 
 .m{
-
     font-weight: bolder;
     font-size: 40px;
 }
@@ -32,10 +31,14 @@ a{
     margin: auto;       
 }
 
-.navbar-toggler{
-    border-color: #ffffff;
-    --background-color: #ffffff;
+.navbar{
+    height: 60px;   
+}
 
+.content{
+    width: 321px;
+    position: absolute;
+    left: 1%;
 }
 
 /*Seccion Header*/
@@ -47,6 +50,15 @@ a{
     }
     
     @media (min-width: 768px) {
+        .navbar{
+            height: 60px;   
+        }
+        
+        .content{
+            width: 1280px;
+            position: absolute;
+            left: 1%;
+        }
         .mujer > img{
             width: 100vw !important;
             height: 737px !important; 
