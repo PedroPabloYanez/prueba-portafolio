@@ -32,7 +32,7 @@ a{
 }
 
 .navbar{
-    height: 60px;   
+    height: 60px;
 }
 
 .content{
@@ -40,6 +40,10 @@ a{
     position: absolute;
     left: 1%;
 }
+
+.navBar_250{
+    height: 250px;
+} 
 
 /*Seccion Header*/
 
@@ -51,7 +55,7 @@ a{
     
     @media (min-width: 768px) {
         .navbar{
-            height: 60px;   
+            height: 60px;  
         }
         
         .content{
@@ -82,16 +86,27 @@ a{
         }
         .linea{
             color: #373A3C;
-            width: 15% !important;
-            margin: 35px 470px !important;    
+            width: 10% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
         }
         .workline{
             color: #ffffff;
-            width: 15% !important;
-            margin: 35px 470px !important;
+            width: 10% !important;
             margin-bottom: 50px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
         }
-        
+        .cartas{
+            justify-content: center;
+            align-items: center;
+            width: 994px !important;
+            height: 689px !important;
+        }
+        .card{
+            margin-bottom: 20px;
+            width: 316px !important;   
+        }
     }
 
 .titulos{  
@@ -105,6 +120,7 @@ hr {
     border-color: #ffffff;
     opacity: 1;
     padding: 1px;
+    margin-bottom: 40px;
 }
 
 .titulo1{
@@ -129,19 +145,19 @@ h4{
 .linea{
     color: #373A3C;
     width: 35%;
-    margin: 16px 115px;    
+    margin-left: auto ;
+    margin-right: auto ;  
+   
 }
 
 .parrafo1{
     line-height: 40px;
-    width: 460px;
     font-size: 16px;
     word-spacing: 0.16px;
 }
 
 .parrafo2{
     line-height: 40px;
-    width: 460px;
     font-size: 16px;
     word-spacing: 0.16px;
 }
@@ -189,12 +205,25 @@ h4{
 .workline{
     color: #ffffff;
     width: 35%;
-    margin: 16px 115px;
     margin-bottom: 50px;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
 .card{
     margin-bottom: 20px;
+    width: 246.19px;   
+}
+
+.cartas{
+    width: 246px;
+    height: 1773px;
+}
+
+
+.card-title{
+    font-size: 23px;
+    font-weight:bolder;
 }
 
 /*Sección Contacto*/

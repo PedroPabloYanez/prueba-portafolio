@@ -15,5 +15,13 @@ $(function () {
        }   
     });
 
+    $("#hamburger").click(function (event) {
+      if (document.getElementById("navHamburger").className.match(/(?:^|\s)navBar_250(?!\S)/)) {
+      document.getElementById("navHamburger").className = document.getElementById("navHamburger").className.replace(/(?:^|\s)navBar_250(?!\S)/g, '')
+      } else {
+      document.getElementById("navHamburger").className += " navBar_250";
+      } 
+      }); 
+
 
 });
